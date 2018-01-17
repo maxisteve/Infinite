@@ -1,0 +1,193 @@
+﻿* {
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+.MasterBody {
+    background-color: deepskyblue;
+}
+
+
+body {
+    background-color: darkslategrey;
+    /* For browsers that do not support gradients */
+    /*background: -webkit-linear-gradient(left top, #1E1E45, #4143A3, #848FD8,#CFD5EE,#ECEDF9);*/
+    /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(bottom right, #1E1E45, #4143A3, #848FD8,#CFD5EE,#ECEDF9);*/
+    /* For Opera 11.1 to 12.0 
+    /*background: -moz-linear-gradient(bottom right, #1E1E45, #4143A3, #848FD8,#CFD5EE,#ECEDF9);*/
+    /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient( to bottom right, #1E1E45, #4143A3, #848FD8,#CFD5EE,#ECEDF9);*/
+    /* Standard syntax */
+    /*height: 100vh;
+    color: #fff;*/
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:dodgerblue;
+    margin-top:50px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+}
+
+.sidenav a {
+    padding: 2px 2px 0.5px 32px;
+    text-decoration: none !important;
+    font-size: 15px;
+    color:white;
+    display: block;
+    background-color:dodgerblue;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color:dodgerblue;
+    display: block;
+    background-color:aliceblue;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#mySidenav{
+
+    width: 150px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-top: -10px;
+    margin-left:-8px;
+    background-color:dodgerblue;
+    /* background-color:orangered; */
+    color:white;
+}
+.sidebar3 {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 0px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+.logo {
+    float: left;
+}
+
+    .logo > img {
+        background-color:white;
+        border-radius:2px;
+    }
+
+.name {
+    float: left;
+    clear: left;
+    padding: 5px;
+    height: 74px;
+    vertical-align: middle;
+    padding-top: 0px;
+    text-align: left;
+}
+
+    .name > p {
+        margin-bottom: 0px;
+    }
+
+i {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+    border-bottom: 1px solid #848FD8;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.activebooks {
+    border: 1px solid #848FD8;
+    padding: 0px 10px;
+    margin-top: -2px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.dropdown .fa-plus {
+    border: 1px solid #848FD8;
+    padding: 4px;
+    margin-top: -2px;
+    margin-right: 0px;
+}
+
+.list {
+    padding-left: 20px;
+}
+
+.dropdown {
+    margin-left: -15px;
+}
+
+.submenu > li {
+    display: list-item;
+    list-style-type: square;
+}
+
+.submenu {
+    padding-left: 12px;
+}
+
+    .submenu > li:hover {
+        color: blue;
+    }
+
+    .category::before, .category::after, .submenu::after {
+        content: " ";
+        white-space: pre;
+    }
+
+i.fa.fa-circle-thin {
+    color: #00ff74;
+}
+
+li:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+}
+
+.main-content {
+    text-align: right;
+    color: black !important;
+    margin-left: 160px;
+    margin-top:20px; 
+
+}
+
+    .main-content > p > a {
+        color: black;
+    }
+.main-footer {
+
+    text-align: right;
+}
+.footer-style{
+    font-family:'Century Gothic';
+    color:darkblue;
+    text-decoration-skip:ink;
+}

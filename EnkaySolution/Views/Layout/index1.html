@@ -1,0 +1,111 @@
+<html>
+
+<head> 
+    
+    <style>
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:dodgerblue;
+    margin-top:50px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color:white;
+    display: block;
+    background-color:dodgerblue;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color:dodgerblue;
+    display: block;
+    background-color:aliceblue;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#mySidenav{
+
+    width: 50px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-top: -10px;
+    margin-left:-8px;
+    background-color:dodgerblue;
+    /* background-color:orangered; */
+    color:white;
+}
+body{
+
+    background-color: gray;
+/* 
+    background-image: -webkit-gradient(linear, left top, left bottom, from(blanchedalmond),blue-color));
+    background-image: -webkit-linear-gradient(top, blanchedalmond, blue);
+    background-image: -moz-linear-gradient(top, blanchedalmond, blue);
+    background-image: linear-gradient(to bottom, blanchedalmond, blue); */
+}
+
+
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+        </style>
+    </head>
+
+    <div id="mySidenav" class="sidenav">
+        <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+        <a href="#" ><span>&#xf38f;</span> Enquiry</a>
+        <a href="#">Services</a>
+        <a href="#">Customer Details</a>
+        <a href="#">Employees</a>
+        <a href="#">Configuration</a>
+      </div>
+      
+      <div id="main" class="row">
+        
+        <span style="font-size:20px;cursor:pointer" onclick="openNav()"> INFINITE Service &#9776;</span>
+      </div>
+      <body>
+
+
+      </body>
+      <script>
+      function openNav() {
+        var show= document.getElementById("mySidenav").style.width;
+          if(show!="150px")
+          {
+            document.getElementById("mySidenav").style.width = "150px";
+        //   document.getElementById("main").style.marginLeft = "150px";
+          }
+          else
+          {
+            document.getElementById("mySidenav").style.width = "50";
+        //   document.getElementById("main").style.marginLeft= "50";    
+          }
+          
+      }
+      
+      
+      </script>
+           
+    </html>

@@ -1,0 +1,77 @@
+﻿<html>
+<head>
+    <title>Enkay Service</title>
+
+
+    <link href="../../Content/MyCss/Master.css" rel="stylesheet" />
+    <link href="../../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../Content/Site.css" rel="stylesheet" />
+    <link href="../../Content/Common/ionicons.css" rel="stylesheet" />
+    <link href="../../Content/Common/ionicons.min.css" rel="stylesheet" />
+
+
+    <!-- App Scripts -->
+    <script src="../../Scripts/Common/angular.js"></script>
+    <script src="../../Scripts/Common/angular-ui-router.min.js"></script>
+    <script src="../../Scripts/Common/angular.min.js"></script>
+
+
+
+
+
+    <script src="../../Scripts/Module/MasterApp.js"></script>
+    <script src="../../Scripts/AngularController/Layout/Dashboard.js"></script>
+
+
+
+
+
+
+    <script src="../../Scripts/Common/jquery.min.js"></script>
+    <script src="../../Scripts/bootstrap.js"></script>
+    <script src="../../Scripts/bootstrap.min.js"></script>
+    <script src="../../Scripts/Common/ui-grid.min.js"></script>
+    <script src="../../Scripts/Common/ui-grid.js"></script>
+    <script src="../../Scripts/Common/jquery.min.js"></script>
+
+    <script src="../../Scripts/Common/angular-route.min.js"></script>
+    <script src="../../Scripts/Common/angular-route.js"></script>
+    <script src="../../Scripts/jquery-1.10.2.js"></script>
+    <script src="../../Scripts/jquery-1.10.2.min.js"></script>
+
+
+    <script src="../../Scripts/modernizr-2.6.2.js"></script>
+    <script src="../../Scripts/respond.js"></script>
+    <script src="../../Scripts/respond.min.js"></script>
+
+
+
+</head>
+<body ng-app="MasterApp" class="MasterBody">
+    <div class="" ng-controller="LayoutDashboardCtrl">
+       
+        <div id="mySidenav" class="sidenav">
+            <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+            <a ui-sref="Inquiry"><h6>Inquiry</h6></a>
+            <a href="#"><h6>Services</h6></a>
+            <a href="#"><h6>Customer Details</h6></a>
+            <a href="#"><h6>Employees</h6></a>
+            <a href="#"><h6>Configuration</h6></a>
+          </div>
+          
+          <div id="main" class="row">
+            
+            <span style="font-size:20px;cursor:pointer" ng-click=""> INFINITE Service </span>
+          </div>
+          <div class="col-md-10 col-sm-10">
+            <div class="col-md-12 col-sm-12 main-content" ID="maincontant" >
+                <!--shadow" style="background-color:white"-->
+               <div class="">
+                    <ui-view></ui-view>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
