@@ -1,6 +1,6 @@
 ﻿"use strict"
 
-var app = angular.module("MasterApp", ['ui.router']);
+var app = angular.module("MasterApp", ['ui.router', 'ui.grid', 'ui.grid.selection']);
  
 //app.config(function ($stateProvider, $urlRouterProvider) {
 
@@ -69,8 +69,8 @@ app.config(function ($stateProvider) {
 
     var helloState = {
         name: 'Inquiry',
-        url: '/Inquiry/add',
-        templateUrl: '../../Views/Inquiry/Add.html'
+        url: '/Inquiry/Dashboard',
+        templateUrl: '../../Views/Inquiry/Dashboard.html'
     }
     var Customer = {
         name: 'Customer',

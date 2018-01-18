@@ -149,6 +149,7 @@
     <Content Include="Scripts\AngularController\Customer\Add.js" />
     <Content Include="Scripts\AngularController\Customer\Dashboard.js" />
     <Content Include="Scripts\AngularController\Customer\Edit.js" />
+    <Content Include="Scripts\AngularController\Inquiry\Dashboard.js" />
     <Content Include="Scripts\AngularController\Layout\Dashboard.js" />
     <Content Include="Scripts\Common\angular-route.min.js.map" />
     <Content Include="Scripts\Common\angular.min.js.map" />
@@ -324,7 +325,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Scripts\AngularController\Common\" />
-    <Folder Include="Scripts\AngularController\Inquiry\" />
     <Folder Include="Scripts\AngularController\Service\" />
   </ItemGroup>
   <ItemGroup>

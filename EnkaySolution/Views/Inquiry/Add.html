@@ -1,22 +1,24 @@
 ﻿<form ng-app="MasterApp" ng-controller="InquiryAddCtrl">
 
+    <div class="panel">
+        <div class="panel-heading">Inquiry</div>
+        <div class="panel-body">
+            <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 form-control-static">
+                <div class="  ">
+                    <label class="col-lg-6 col-md-6 col-sm-2 control-label">Reference Number</label>
+                    <input class="col-lg-6 col-md-6 col-sm-3  " ng-model="student.studentmaster.Eno" type="text">
+                </div>
 
-    <div class="panel-heading">Inquiry</div>
-    <div class="panel-body">
-        <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 form-control-static">
-            <div class="  ">
-                <label class="col-lg-6 col-md-6 col-sm-2 control-label">Reference Number</label>
-                <input class="col-lg-6 col-md-6 col-sm-3  " ng-model="student.studentmaster.Eno" type="text">
-            </div>
 
-            
-        </div>
-        <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
-            <div class="form-group form-control-static control-label ">
-                <label class="col-lg-6 col-md-6 col-sm-2 ">Schema</label>
-                <input class="col-lg-6 col-md-6 col-sm-3 ctext " ng-model="student.studentmaster.Schema" type="text">
+            </div>
+            <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                <div class="form-group form-control-static control-label ">
+                    <label class="col-lg-6 col-md-6 col-sm-2 ">Schema</label>
+                    <input class="col-lg-6 col-md-6 col-sm-3 ctext " ng-model="student.studentmaster.Schema" type="text">
+                </div>
             </div>
         </div>
+        <div class="panel-footer "> <input type="submit" value="Submit "> </div>
     </div>
-    <div class="panel-footer "> <input type="submit" value="Submit "> </div>
+
 </form>
