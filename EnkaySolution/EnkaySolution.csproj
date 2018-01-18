@@ -159,6 +159,7 @@
     <Content Include="Content\Common\_ionicons-font.less" />
     <Content Include="Content\Common\_ionicons-icons.less" />
     <Content Include="Content\Common\_ionicons-variables.less" />
+    <None Include="Properties\PublishProfiles\EnkaySmartSolutions - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\logo.png" />
     <Content Include="Scripts\bootstrap.js" />
