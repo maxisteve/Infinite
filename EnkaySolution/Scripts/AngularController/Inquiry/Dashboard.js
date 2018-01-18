@@ -5,8 +5,12 @@
     { name: "Nephi", age: 29 },
     { name: "Enos", age: 34 }];
     $scope.gridOptions = {
+        enableRowSelection: true,
+        enableSelectAll: true,
+        enableFiltering: true,
+        rowHeight: 30,
         data: "myData",
-        columnDefs: [{ field: 'name', displayName: 'First Name', width: 90},
+        columnDefs: [{ field: 'name', displayName: 'First Name',height:3},
             { field: 'age', cellClass: 'ageCell', headerClass: 'ageHeader' }]
     };
 }]);

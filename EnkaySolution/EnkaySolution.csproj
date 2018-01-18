@@ -146,6 +146,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="reference_\reference.txt" />
     <Content Include="Scripts\AngularController\Customer\Add.js" />
     <Content Include="Scripts\AngularController\Customer\Dashboard.js" />
     <Content Include="Scripts\AngularController\Customer\Edit.js" />
