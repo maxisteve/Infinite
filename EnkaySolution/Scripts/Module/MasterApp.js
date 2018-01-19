@@ -1,6 +1,6 @@
 ﻿"use strict"
 
-var app = angular.module("MasterApp", ['ui.router', 'ui.grid', 'ui.grid.selection']);
+var app = angular.module("MasterApp", ['ui.router', 'ui.grid', 'ui.grid.selection', 'angucomplete-alt']);
  
 //app.config(function ($stateProvider, $urlRouterProvider) {
 
