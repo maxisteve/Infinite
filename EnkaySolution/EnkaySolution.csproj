@@ -133,6 +133,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Common\ionicons.css" />
     <Content Include="Content\Common\ionicons.min.css" />
+    <Content Include="Content\Common\ui-grid.css" />
+    <Content Include="Content\Common\ui-grid.min.css" />
     <Content Include="Content\MyCss\Master.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
@@ -161,6 +163,10 @@
     <Content Include="Content\Common\_ionicons-font.less" />
     <Content Include="Content\Common\_ionicons-icons.less" />
     <Content Include="Content\Common\_ionicons-variables.less" />
+    <Content Include="Content\Common\ui-grid.eot" />
+    <Content Include="Content\Common\ui-grid.svg" />
+    <Content Include="Content\Common\ui-grid.ttf" />
+    <Content Include="Content\Common\ui-grid.woff" />
     <None Include="Properties\PublishProfiles\EnkaySmartSolutions - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\logo.png" />
