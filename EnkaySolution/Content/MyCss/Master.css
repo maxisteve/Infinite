@@ -3,7 +3,7 @@
     border: 1px solid transparent;
 }
 .MasterBody {
-    background-color: deepskyblue;
+    background-color: white;
 }
 
 
@@ -21,7 +21,17 @@ body {
     /*height: 100vh;
     color: #fff;*/
 }
+label {
+    font-weight:normal !important;
+    color:slategrey;
+}
 
+input, select, textarea {
+    max-width: 280px;
+    /* border: 1px solid; */
+    border-color: gray;
+     border-radius: 0px !important;
+}
 .sidenav {
     height: 100%;
     width: 0;
@@ -172,10 +182,8 @@ li:hover {
 }
 
 .main-content {
-    text-align: right;
     color: black !important;
     margin-left: 160px;
-    margin-top:20px; 
 
 }
 
