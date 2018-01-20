@@ -46,8 +46,8 @@ input, select, textarea {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color:dodgerblue;
-    margin-top:50px;
+    background-color: #06c;
+    margin-top: 50px;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 10px;
@@ -59,15 +59,20 @@ input, select, textarea {
     font-size: 15px;
     color:white;
     display: block;
-    background-color:dodgerblue;
+    background-color:#06c;
     transition: 0.3s;
 }
 
 .sidenav a:hover {
-    color:dodgerblue;
+    color:#06c;
     display: block;
     background-color:aliceblue;
 }
+    .sidenav a:active {
+        color: #06c !important;
+        display: block !important;
+        background-color: aliceblue !important;
+    }
 
 .sidenav .closebtn {
     position: absolute;
@@ -84,10 +89,10 @@ input, select, textarea {
     transition: margin-left .5s;
     padding: 16px;
     margin-top: -10px;
-    margin-left:-8px;
-    background-color:dodgerblue;
+    margin-left: -8px;
+    background-color: #06c;
     /* background-color:orangered; */
-    color:white;
+    color: white;
 }
 .sidebar3 {
     padding-top: 30px;
