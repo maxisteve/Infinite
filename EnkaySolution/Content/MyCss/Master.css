@@ -5,7 +5,10 @@
 .MasterBody {
     background-color: white;
 }
-
+.Homeheader {
+    position:fixed;
+    width:100%;
+}
 
 body {
     background-color: darkslategrey;
@@ -23,12 +26,16 @@ body {
 }
 label {
     font-weight:normal !important;
+    font-size:smaller;
     color:slategrey;
 }
 
 input, select, textarea {
     max-width: 280px;
     /* border: 1px solid; */
+    height:20px;
+    font-size:smaller !important;
+    
     border-color: gray;
      border-radius: 0px !important;
 }
@@ -184,6 +191,7 @@ li:hover {
 .main-content {
     color: black !important;
     margin-left: 160px;
+    margin-top:50px;
 
 }
 

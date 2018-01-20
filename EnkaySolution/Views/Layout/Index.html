@@ -9,10 +9,10 @@
     <link href="../../Content/Site.css" rel="stylesheet" />
     <link href="../../Content/Common/ionicons.css" rel="stylesheet" />
     <link href="../../Content/Common/ionicons.min.css" rel="stylesheet" />
-    <!--<link href="../../Content/Common/ui-grid.css" rel="stylesheet" />
-    <link href="../../Content/Common/ui-grid.min.css" rel="stylesheet" />-->
+    <link href="../../Content/Common/ui-grid.css" rel="stylesheet" />
+    <link href="../../Content/Common/ui-grid.min.css" rel="stylesheet" />
     <link href="../../Content/Common/angucomplete-alt.css" rel="stylesheet" />
-
+    <link href="../../Content/Common/TabStyle.css" rel="stylesheet" />
     <!-- App Scripts -->
     <script src="../../Scripts/Common/angular.js"></script>
     <script src="../../Scripts/Common/angular-ui-router.min.js"></script>
@@ -24,7 +24,7 @@
 
     <script src="../../Scripts/AngularController/Layout/Dashboard.js"></script>
 
-
+    <script src="../../Scripts/AngularController/Inquiry/add.js"></script>
     <script src="../../Scripts/AngularController/Inquiry/Dashboard.js"></script>
 
 
@@ -62,10 +62,7 @@
             <a href="#"><h6>Configuration</h6></a>
           </div>
           
-          <div id="main" class="row">
-            
-            <span style="font-size:20px;cursor:pointer" ng-click=""> INFINITE Service </span>
-          </div>
+
           <div class="col-md-10 col-sm-10">
             <div class="col-md-12 col-sm-12 main-content" ID="maincontant" >
                 <!--shadow" style="background-color:white"-->
@@ -73,6 +70,10 @@
                     <ui-view></ui-view>
                 </div>
             </div>
+        </div>
+        <div id="main" class="row Homeheader">
+
+            <span style="font-size:20px;cursor:pointer" ng-click=""> INFINITE Service </span>
         </div>
     </div>
 </body>

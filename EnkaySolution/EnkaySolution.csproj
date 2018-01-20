@@ -134,6 +134,7 @@
     <Content Include="Content\Common\angucomplete-alt.css" />
     <Content Include="Content\Common\ionicons.css" />
     <Content Include="Content\Common\ionicons.min.css" />
+    <Content Include="Content\Common\TabStyle.css" />
     <Content Include="Content\Common\ui-grid.css" />
     <Content Include="Content\Common\ui-grid.min.css" />
     <Content Include="Content\MyCss\Master.css" />
@@ -153,6 +154,7 @@
     <Content Include="Scripts\AngularController\Customer\Add.js" />
     <Content Include="Scripts\AngularController\Customer\Dashboard.js" />
     <Content Include="Scripts\AngularController\Customer\Edit.js" />
+    <Content Include="Scripts\AngularController\Inquiry\add.js" />
     <Content Include="Scripts\AngularController\Inquiry\Dashboard.js" />
     <Content Include="Scripts\AngularController\Layout\Dashboard.js" />
     <Content Include="Scripts\Common\angucomplete-alt.js" />
