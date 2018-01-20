@@ -131,8 +131,11 @@
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Common\angucomplete-alt.css" />
     <Content Include="Content\Common\ionicons.css" />
     <Content Include="Content\Common\ionicons.min.css" />
+    <Content Include="Content\Common\ui-grid.css" />
+    <Content Include="Content\Common\ui-grid.min.css" />
     <Content Include="Content\MyCss\Master.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
@@ -152,6 +155,7 @@
     <Content Include="Scripts\AngularController\Customer\Edit.js" />
     <Content Include="Scripts\AngularController\Inquiry\Dashboard.js" />
     <Content Include="Scripts\AngularController\Layout\Dashboard.js" />
+    <Content Include="Scripts\Common\angucomplete-alt.js" />
     <Content Include="Scripts\Common\angular-route.min.js.map" />
     <Content Include="Scripts\Common\angular.min.js.map" />
     <Content Include="fonts\ionicons.eot" />
@@ -161,6 +165,10 @@
     <Content Include="Content\Common\_ionicons-font.less" />
     <Content Include="Content\Common\_ionicons-icons.less" />
     <Content Include="Content\Common\_ionicons-variables.less" />
+    <Content Include="Content\Common\ui-grid.eot" />
+    <Content Include="Content\Common\ui-grid.svg" />
+    <Content Include="Content\Common\ui-grid.ttf" />
+    <Content Include="Content\Common\ui-grid.woff" />
     <Content Include="Bundle.config" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\EnkaySmartSolutions - Web Deploy.pubxml" />
