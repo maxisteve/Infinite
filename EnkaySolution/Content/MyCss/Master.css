@@ -6,8 +6,9 @@
     background-color: white;
 }
 .Homeheader {
-    position:fixed;
-    width:100%;
+    position: fixed;
+    width: 100%;
+    box-shadow: .50px 5px 2px #d3d3d3;
 }
 
 body {
@@ -36,7 +37,7 @@ input, select, textarea {
     height:20px;
     font-size:smaller !important;
     
-    border-color: gray;
+    border-color: red;
      border-radius: 0px !important;
 }
 .sidenav {
@@ -81,9 +82,9 @@ input, select, textarea {
     font-size: 36px;
     margin-left: 50px;
 }
-#mySidenav{
-
+#mySidenav {
     width: 150px;
+    box-shadow: 5px 15px 10px #d3d3d3;
 }
 #main {
     transition: margin-left .5s;
@@ -133,12 +134,22 @@ i {
 
 li {
     list-style-type: none;
-    padding: 5px;
-    border-bottom: 1px solid #848FD8;
+    
 }
 
 ul {
     padding-left: 0px;
+}
+
+#submeu {
+    padding-left: 10px !important;
+}
+
+
+.nav > li > a {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    font-size: 12px !important;
 }
 
 .activebooks {
@@ -196,8 +207,9 @@ li:hover {
 .main-content {
     color: black !important;
     margin-left: 160px;
-    margin-top:50px;
-
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px #d3d3d3;
+    overflow:hidden;
 }
 
     .main-content > p > a {

@@ -63,19 +63,30 @@ var app = angular.module("MasterApp", ['ui.router', 'ui.grid', 'ui.grid.selectio
 
 //$stateProvider.state(helloState);
 //$stateProvider.state(aboutState);
-
+//$stateProvider
+//    .state("contact", {
+//        url: "/contact/",
+//        templateUrl: '/app/Aisel/Contact/views/contact.html',
+//        controller: 'ContactCtrl'
+//    });
 
 app.config(function ($stateProvider) {
 
-    var helloState = {
+    var defaultroute = {
+        name: 'default',
+        url: '/Inquiry/add',
+        templateUrl: '../../Views/Inquiry/add.html'
+    }
+ 
+    var Inquiry = {
         name: 'Inquiry',
         url: '/Inquiry/add',
         templateUrl: '../../Views/Inquiry/add.html'
     }
-    var Customer = {
-        name: 'Customer',
-        url: '/Customer/add',
-        templateUrl: '../../Views/Customer/add.html'
+    var Quote = {
+        name: 'Quote',
+        url: '/Quote/add',
+        templateUrl: '../../Views/Quote/add.html'
     }
     var Service= {
         name: 'Service',
@@ -88,6 +99,12 @@ app.config(function ($stateProvider) {
         template: '<h3>Its the UI-Router hello world app!</h3>'
     }
 
-    $stateProvider.state(helloState);
-    $stateProvider.state(aboutState);
+    
+    $stateProvider.state(defaultroute);
+    $stateProvider.state(Inquiry);
+    $stateProvider.state(Quote);
+    $stateProvider.state(Service);
+
+    
+
 });

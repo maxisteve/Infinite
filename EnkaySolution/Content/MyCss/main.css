@@ -1,0 +1,280 @@
+﻿/*Student details from*/
+
+.iofrm {
+    position: fixed;
+    top: 80px;
+    left: 900px;
+    box-shadow: 0px 0px 20px #808080;
+    height: 650px;
+    width: 350px;
+}
+
+#Cont {
+    position: fixed;
+    top: 200px;
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 0px 20px #808080;
+}
+
+#io input,
+#io select {
+    height: 33px;
+    width: 80px;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 0px 20px #808080;
+}
+
+
+/*Menu*/
+
+.mnu {
+    height: 36px;
+    background-color: yellowmarine;
+    width: 100%;
+}
+
+ul {
+    position: fixed;
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+a li {
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    background-color: yellowmarine;
+    margin: 0px;
+    padding-top: 6px;
+    text-align: center;
+    height: 30px;
+    font-family: 'Century Gothic';
+    color: darkblue;
+}
+
+a li:hover {
+    background-color: cadetblue;
+    color: white;
+}
+
+
+/*Menu End*/
+
+
+/* Login */
+
+.tb {
+    position: relative;
+    width: 350px;
+    height: 230px;
+    background-color: none;
+    align-self: center;
+    left: 00px;
+    top: 200px;
+    box-shadow: 1px 1px 2px #808080;
+    font-family: 'Century Gothic';
+}
+
+.logingroup {
+    margin-top: 50px;
+}
+
+#login {
+    align-self: center;
+    left: 900px;
+    top: 350px;
+    color: black;
+}
+
+#login1 {
+    align-self: center;
+    left: 900px;
+    top: 350px;
+    background-color: white;
+    opacity: .2;
+}
+
+table {
+    position: relative;
+    top: 23px;
+}
+
+.LeftSide {
+    height: 89%;
+    background-color: white;
+}
+
+#bnt {
+    height: 25px;
+    width: 80px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: #06c;
+    font-family: 'Century Gothic';
+    font-size: medium;
+    font-weight: bolder;
+    color: white;
+    font-variant: small-caps;
+}
+
+#bnt:hover {
+    box-shadow: 1px 1px 2px #000000;
+}
+
+#bnt:active {
+    box-shadow: 1px 1px 2px #ffffff;
+}
+
+#hdr {
+    width: 60px;
+    height: 230px;
+    background-color: #06c;
+    
+    box-shadow: 1px 1px 2px #808080;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: -20px;
+    margin-right: 30px;
+}
+
+#hd {
+    color: black;
+    color: white !important;
+    font-family: 'Century Gothic';
+    font-variant: small-caps;
+    font-size: xx-large;
+    transform: rotate(270deg);
+    position: relative;
+    top: 115px;
+}
+
+.text input {
+    height: 33px;
+    width: 290px;
+    /*border-radius: 5px;*/
+    border-bottom-width: 1px;
+    border-bottom-color: #06c;
+    border-style: none;
+    border-bottom-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: 500px;
+    /*box-shadow: 0px 0px 20px #808080;*/
+}
+
+body {
+    /*background-image: url('../src/img/Cute-Grey-Seamless-Pattern-For-Website-Background.jpg');*/
+    background-image: url('E:/mani/Login_Page/Src/android-l-material-design-3707.jpg');
+    /*background-image: url('../src/img/tumblr_nbdj25PUPc1tf8vylo1_1280.png');*/
+}
+
+input:focus {
+    outline: none;
+}
+
+.radiob {
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: smaller;
+}
+
+#sgnup,
+input,
+select,
+option {
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: smaller;
+}
+
+td #sgn {
+    height: 33px;
+    width: 190px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: #1c2b36;
+    font-family: 'Century Gothic';
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    font-variant: small-caps;
+}
+
+th #sgn {
+    position: relative;
+    top: -10px;
+    font-size: x-large;
+    font-family: 'Century Gothic';
+    font-variant: small-caps;
+    cursor: pointer;
+    background-color: none;
+}
+
+th {
+    font-family: 'Century Gothic';
+    font-size: small;
+    text-align: right;
+}
+
+
+/* Login end*/
+
+
+/* Register Form Div */
+
+#reg {
+    position: relative;
+    top: 80px;
+    left: 00px;
+}
+
+.regfrm {
+    position: fixed;
+    left: 70%;
+    width: 345px;
+    height: 800px;
+    top: 60px;
+    /*border-radius:20px;*/
+    /*box-shadow:2px 2px 5px #808080;*/
+}
+
+.regfrm1 {
+    position: fixed;
+    left: 70%;
+    width: 345px;
+    height: 780px;
+    top: 60px;
+    /*border-radius:20px;*/
+    box-shadow: 2px 2px 5px #808080;
+}
+
+.he {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    width: 80%;
+    height: 50px;
+    background-color: #1c2b36;
+    */
+    /*transform:rotate(345deg);*/
+    font-family: 'Century Gothic';
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    box-shadow: 2px 2px 5px #808080;
+}

@@ -137,6 +137,7 @@
     <Content Include="Content\Common\TabStyle.css" />
     <Content Include="Content\Common\ui-grid.css" />
     <Content Include="Content\Common\ui-grid.min.css" />
+    <Content Include="Content\MyCss\main.css" />
     <Content Include="Content\MyCss\Master.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
@@ -275,13 +276,23 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Views\Admin\Login.html" />
     <Content Include="Views\Customer\add.html" />
+    <Content Include="Views\Employee\Add.html" />
+    <Content Include="Views\Employee\Dashboard.html" />
+    <Content Include="Views\Employee\Edit.html" />
     <Content Include="Views\Inquiry\Add.html" />
     <Content Include="Views\Inquiry\Dashboard.html" />
     <Content Include="Views\Inquiry\Edit.html" />
     <Content Include="Views\Layout\Index.html" />
     <Content Include="Site.Master" />
     <Content Include="Site.Mobile.Master" />
+    <Content Include="Views\Quote\Add.html" />
+    <Content Include="Views\Quote\Dashboard.html" />
+    <Content Include="Views\Quote\Edit.html" />
+    <Content Include="Views\Service\Add.html" />
+    <Content Include="Views\Service\Dashboard.html" />
+    <Content Include="Views\Service\Edit.html" />
     <Content Include="Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
