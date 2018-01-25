@@ -1,7 +1,8 @@
 ﻿<form ng-app="MasterApp">
-    <div class="panel" ng-controller="Dashboardctrl">
+    <div class="panel-default  main-content" ng-controller="Dashboardctrl">
+        <div class="panel-default panel-heading">Inquiry</div>
         <input type="button" ng-click="goadd()" value="add">
-        <div id="grid1" ui-grid="gridOptions" class="grid" ui-grid-auto-resize ui-grid-pagination></div>
+        <div id="" ui-grid="gridOptions" ui-grid-cellNav ui-grid-edit ui-grid-resize-columns ui-grid-pinning ui-grid-selection ui-grid-move-columns ui-grid-importer ui-grid-exporter ui-grid-grouping class="grid"></div>
 
     </div>
 </form>

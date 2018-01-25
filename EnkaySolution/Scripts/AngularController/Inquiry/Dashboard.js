@@ -11,12 +11,19 @@
     { name: "Nephi", age: 29 },
     { name: "Enos", age: 34 }];
     $scope.gridOptions = {
-        enableRowSelection: true,
-        enableSelectAll: true,
+        data: 'myData',
+        enableCellEditOnFocus: true,
+        enableColumnResizing: true,
         enableFiltering: true,
-        rowHeight: 30,
-        data: "myData",
-        columnDefs: [{ field: 'name', displayName: 'First Name',height:3},
-            { field: 'age', cellClass: 'ageCell', headerClass: 'ageHeader' }]
+        enableGridMenu: true,
+        showGridFooter: true,
+        showColumnFooter: true,
+        columnDefs: [
+            { field: 'ReferenceNumber', displayName: 'Reference #' },
+            { field: 'Customer', cellClass: 'Customer' },
+                { field: 'Date', displayName: 'D O I' },
+                { field: 'Status', cellClass: 'Status' },
+                
+        ]
     };
 }]);

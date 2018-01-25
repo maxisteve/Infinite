@@ -1,14 +1,16 @@
-﻿* {
+﻿/** {
     box-sizing: border-box;
     border: 1px solid transparent;
-}
+}*/
 .MasterBody {
     background-color: white;
 }
 .Homeheader {
     position: fixed;
-    width: 100%;
+    width: 110%;
     box-shadow: .50px 5px 2px #d3d3d3;
+    box-sizing: border-box;
+    border: 1px solid transparent;
 }
 
 body {
@@ -89,7 +91,7 @@ input, select, textarea {
 #main {
     transition: margin-left .5s;
     padding: 16px;
-    margin-top: -10px;
+    margin-top: -51px;
     margin-left: -8px;
     background-color: #06c;
     /* background-color:orangered; */
@@ -210,6 +212,14 @@ li:hover {
     margin-top: 50px;
     box-shadow: 5px 5px 10px #d3d3d3;
     overflow:hidden;
+}
+
+.main-header-content {
+    color: black !important;
+    margin-left: 160px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 10px #d3d3d3;
+    overflow: hidden;
 }
 
     .main-content > p > a {

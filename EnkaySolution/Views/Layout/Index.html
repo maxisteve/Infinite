@@ -52,38 +52,35 @@
 </head>
 <body ng-app="MasterApp" class="MasterBody">
     <div class="" ng-controller="LayoutDashboardCtrl">
-        <div id="main" class="row Homeheader">
 
-            <span style="font-size:20px;cursor:pointer" ng-click=""> INFINITE Service </span>
-        </div>
         <div id="mySidenav" class="sidenav">
             <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
             <!--<a ui-sref="Inquiry"><h6>Dashboard</h6></a>
-            <a ui-sref="Inquiry"><h6>Inquiry</h6></a>
-            <a href="#"><h6>Quote</h6></a>
-            <a href="#"><h6>Services</h6></a>
-            <a href="#"><h6>Invoice</h6></a>
-            <li>
-                <a href="#">Link 2</a><a href="#" class="toggle-custom" id="btn-1" data-toggle="collapse" data-target="#submenu1" aria-expanded="false"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
-                <ul class="nav collapse" id="submenu1" role="menu" aria-labelledby="btn-1">
-                    <li>
-                        <a href="#">Link 2.1</a>
-                    </li>
-                    <li>
-                        <a href="#">Link 2.2</a>
-                    </li>
-                    <li>
-                        <a href="#">Link 2.3</a>
-                    </li>
-                </ul>
-            </li>
-            <a href="#"><h6>Customer Details</h6></a>
-            <a href="#"><h6>Employees</h6></a>
-            <a href="#"><h6>Configuration</h6></a>-->
+        <a ui-sref="Inquiry"><h6>Inquiry</h6></a>
+        <a href="#"><h6>Quote</h6></a>
+        <a href="#"><h6>Services</h6></a>
+        <a href="#"><h6>Invoice</h6></a>
+        <li>
+            <a href="#">Link 2</a><a href="#" class="toggle-custom" id="btn-1" data-toggle="collapse" data-target="#submenu1" aria-expanded="false"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+            <ul class="nav collapse" id="submenu1" role="menu" aria-labelledby="btn-1">
+                <li>
+                    <a href="#">Link 2.1</a>
+                </li>
+                <li>
+                    <a href="#">Link 2.2</a>
+                </li>
+                <li>
+                    <a href="#">Link 2.3</a>
+                </li>
+            </ul>
+        </li>
+        <a href="#"><h6>Customer Details</h6></a>
+        <a href="#"><h6>Employees</h6></a>
+        <a href="#"><h6>Configuration</h6></a>-->
             <nav>
                 <ul class="nav">
                     <li>
-                        <a  ui-sref="Inquiry">Dashboard</a>
+                        <a ui-sref="Inquiry">Dashboard</a>
                     </li>
 
                     <li>
@@ -128,17 +125,20 @@
                     </li>
                 </ul>
             </nav>
-          </div>
-          
+        </div>
 
-          <!--<div class="col-md-10 col-sm-10">
-            <div class="col-md-12 col-sm-12 "  >-->
-                <!--shadow" style="background-color:white"-->
-               <div class="" >
-                    <ui-view></ui-view>
-                </div>
-            <!--</div>
-        </div>-->
+        <div id="main" class="row Homeheader">
+
+            <span style="font-size:20px;cursor:pointer" ng-click=""> INFINITE Service </span>
+        </div>
+        <!--<div class="col-md-10 col-sm-10">
+      <div class="col-md-12 col-sm-12 "  >-->
+        <!--shadow" style="background-color:white"-->
+        <div class="">
+            <ui-view></ui-view>
+        </div>
+        <!--</div>
+    </div>-->
 
     </div>
 </body>
