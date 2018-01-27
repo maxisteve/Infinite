@@ -153,6 +153,7 @@
     <Content Include="Global.asax" />
     <Content Include="img\3.jpg" />
     <Content Include="reference_\reference.txt" />
+    <Content Include="Scripts\AngularController\Admin\Login.js" />
     <Content Include="Scripts\AngularController\Customer\Add.js" />
     <Content Include="Scripts\AngularController\Customer\Dashboard.js" />
     <Content Include="Scripts\AngularController\Customer\Edit.js" />
@@ -194,6 +195,7 @@
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\Module\adminApp.js" />
     <Content Include="Scripts\Module\MasterApp.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
@@ -294,7 +296,9 @@
     <Content Include="Views\Service\Add.html" />
     <Content Include="Views\Service\Dashboard.html" />
     <Content Include="Views\Service\Edit.html" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

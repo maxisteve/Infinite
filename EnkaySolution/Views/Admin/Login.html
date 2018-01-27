@@ -19,14 +19,13 @@
     <script src="../../Scripts/Common/angular.min.js"></script>
 
     <script src="../../Scripts/Common/angucomplete-alt.js"></script>
-    <script src="../../Scripts/Module/MasterApp.js"></script>
-
-
+    <script src="../../Scripts/Module/adminApp.js"></script>
+    <script src="../../Scripts/AngularController/Admin/Login.js"></script>
     <script src="../../Scripts/AngularController/Layout/Dashboard.js"></script>
 
     <script src="../../Scripts/AngularController/Inquiry/add.js"></script>
     <script src="../../Scripts/AngularController/Inquiry/Dashboard.js"></script>
-
+  
 
 
     <script src="../../Scripts/Common/jquery.min.js"></script>
@@ -50,7 +49,7 @@
 
 </head>
 
-<body ng-app="StudentApp" ng-controller="MasterCtrl">
+<body ng-app="adminApp" ng-controller="LoginCtrl">
     <form>
         <div id="login form-group">
             <div class="col-lg-4 col-md-3 col-sm-3 form -control">
@@ -63,14 +62,15 @@
                 </div>
                 <div class="logingroup">
                     <div class="form-group text">
-                        <input type="text" ng-model="val1" placeholder="Username">
+                        <input type="text" ng-model="loginData.userName" placeholder="Username">
                     </div>
                     <div class="form-group text">
-                        <div><input type="password" ng-model="val2" placeholder="Password"></div>
+                        <div><input type="password" ng-model="loginData.passWord" placeholder="Password"></div>
                     </div>
                     <div class="form-group">
-                        <input type="button" id="bnt" ng-click="sgnfrm()" value="Sign Up" />
-                        <a href="../Layout/Index.html">  <input type="button" ng-click="test1()" value="Login" id="bnt" /></a>
+                        <input type="button" class="bnt" id="SignUp" ng-click="login()" value="Sign Up" />
+                        <!--<a href="../Layout/Index.html">  <input type="button" ng-click="attemptLogin()" value="Login"  class="bnt" id="login" /></a>-->
+                        <input type="button" ng-click="attemptLogin()" value="Login" class="bnt" id="login" />
                     </div>
                 </div>
             </div>
